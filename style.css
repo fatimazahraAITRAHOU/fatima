@@ -196,6 +196,7 @@ span:last-child{
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
     gap: 5px;
+    justify-content: center;
    
 }
 iframe{
@@ -215,13 +216,13 @@ iframe{
     align-items: center;
     gap: 5px;
 }
-.linkedin{
+.linkedin i{
     color: #0077B5;
 }
-.github{
+.github i{
     color: #432853;
 }
-.email{
+.email i{
     color: #E63946;
 }
 /*end contact*/
